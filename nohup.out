@@ -1,0 +1,195 @@
+Fail to get yarn configuration. dyld[54695]: Library not loaded: /opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib
+  Referenced from: <F23F9611-8A22-3834-9064-D67825262DD8> /opt/homebrew/Cellar/node/21.5.0/bin/node
+  Reason: tried: '/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache), '/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache)
+
+[I 2026-03-04 20:29:26.318 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-03-04 20:29:26.321 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-03-04 20:29:26.323 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-03-04 20:29:26.862 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-03-04 20:29:26.904 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-03-04 20:29:26.905 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-03-04 20:29:26.906 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-03-04 20:29:26.907 LabApp] JupyterLab extension loaded from /Users/livardywufianto/Projects/PatchTST/venv/lib/python3.10/site-packages/jupyterlab
+[I 2026-03-04 20:29:26.907 LabApp] JupyterLab application directory is /Users/livardywufianto/Projects/PatchTST/venv/share/jupyter/lab
+[I 2026-03-04 20:29:26.908 LabApp] Extension Manager is 'pypi'.
+[I 2026-03-04 20:29:26.929 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-03-04 20:29:26.929 ServerApp] Serving notebooks from local directory: /Users/livardywufianto/Projects/PatchTST
+[I 2026-03-04 20:29:26.929 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2026-03-04 20:29:26.929 ServerApp] http://Livardys-MacBook-Air.local:8888/lab?token=dbcc813ee84f1e02b12ccb038d48f4e08567186b38dc201a
+[I 2026-03-04 20:29:26.929 ServerApp]     http://127.0.0.1:8888/lab?token=dbcc813ee84f1e02b12ccb038d48f4e08567186b38dc201a
+[I 2026-03-04 20:29:26.929 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2026-03-04 20:29:26.931 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///Users/livardywufianto/Library/Jupyter/runtime/jpserver-54693-open.html
+    Or copy and paste one of these URLs:
+        http://Livardys-MacBook-Air.local:8888/lab?token=dbcc813ee84f1e02b12ccb038d48f4e08567186b38dc201a
+        http://127.0.0.1:8888/lab?token=dbcc813ee84f1e02b12ccb038d48f4e08567186b38dc201a
+[W 2026-03-04 20:29:27.069 ServerApp] Could not determine npm prefix: Command '['/opt/homebrew/bin/npm', 'prefix', '-g']' died with <Signals.SIGABRT: 6>.
+[I 2026-03-04 20:29:27.074 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+dyld[54711]: Library not loaded: /opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib
+  Referenced from: <F23F9611-8A22-3834-9064-D67825262DD8> /opt/homebrew/Cellar/node/21.5.0/bin/node
+  Reason: tried: '/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache), '/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache)
+[W 2026-03-04 20:29:44.063 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-03-04 20:32:46.486 ServerApp] Creating new directory in 
+[I 2026-03-04 20:32:52.048 ServerApp] Creating new notebook in /notebooks
+[I 2026-03-04 20:32:56.823 ServerApp] Kernel started: f4abde02-025f-4a09-8ca2-915b2465b611
+[I 2026-03-04 20:32:57.273 ServerApp] Adapting from protocol version 5.3 (kernel f4abde02-025f-4a09-8ca2-915b2465b611) to 5.4 (client).
+[I 2026-03-04 20:32:57.274 ServerApp] Connecting to kernel f4abde02-025f-4a09-8ca2-915b2465b611.
+[W 2026-03-04 20:32:57.275 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2026-03-04 20:32:57.283 ServerApp] Starting buffering for f4abde02-025f-4a09-8ca2-915b2465b611:307fde07-1611-48e7-8740-410ce8f4fa7a
+[I 2026-03-04 20:32:57.287 ServerApp] Adapting from protocol version 5.3 (kernel f4abde02-025f-4a09-8ca2-915b2465b611) to 5.4 (client).
+[I 2026-03-04 20:32:57.287 ServerApp] Connecting to kernel f4abde02-025f-4a09-8ca2-915b2465b611.
+[I 2026-03-04 20:32:57.299 ServerApp] Adapting from protocol version 5.3 (kernel f4abde02-025f-4a09-8ca2-915b2465b611) to 5.4 (client).
+[I 2026-03-04 20:32:57.300 ServerApp] Connecting to kernel f4abde02-025f-4a09-8ca2-915b2465b611.
+[I 2026-03-04 20:33:21.707 ServerApp] New terminal with automatic name: 1
+[I 2026-03-04 20:34:52.349 ServerApp] Saving file at /notebooks/Untitled.ipynb
+[I 2026-03-04 20:36:35.020 ServerApp] Kernel restarted: f4abde02-025f-4a09-8ca2-915b2465b611
+[I 2026-03-04 20:36:35.024 ServerApp] Starting buffering for f4abde02-025f-4a09-8ca2-915b2465b611:5e0c12ef-5344-4362-9e63-b60ec8de2938
+[I 2026-03-04 20:36:35.027 ServerApp] Adapting from protocol version 5.3 (kernel f4abde02-025f-4a09-8ca2-915b2465b611) to 5.4 (client).
+[I 2026-03-04 20:36:35.027 ServerApp] Connecting to kernel f4abde02-025f-4a09-8ca2-915b2465b611.
+[I 2026-03-04 20:36:35.027 ServerApp] Restoring connection for f4abde02-025f-4a09-8ca2-915b2465b611:5e0c12ef-5344-4362-9e63-b60ec8de2938
+[I 2026-03-04 20:36:40.407 ServerApp] Starting buffering for f4abde02-025f-4a09-8ca2-915b2465b611:5e0c12ef-5344-4362-9e63-b60ec8de2938
+[I 2026-03-04 20:36:40.740 ServerApp] Adapting from protocol version 5.3 (kernel f4abde02-025f-4a09-8ca2-915b2465b611) to 5.4 (client).
+[I 2026-03-04 20:36:40.742 ServerApp] Connecting to kernel f4abde02-025f-4a09-8ca2-915b2465b611.
+[I 2026-03-04 20:36:40.755 ServerApp] Starting buffering for f4abde02-025f-4a09-8ca2-915b2465b611:236b44a2-2596-4aa8-8781-ceb5cf9b56c9
+dyld[54999]: Library not loaded: /opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib
+  Referenced from: <F23F9611-8A22-3834-9064-D67825262DD8> /opt/homebrew/Cellar/node/21.5.0/bin/node
+  Reason: tried: '/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache), '/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache)
+[W 2026-03-04 20:36:40.802 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-03-04 20:36:41.135 ServerApp] Adapting from protocol version 5.3 (kernel f4abde02-025f-4a09-8ca2-915b2465b611) to 5.4 (client).
+[I 2026-03-04 20:36:41.136 ServerApp] Connecting to kernel f4abde02-025f-4a09-8ca2-915b2465b611.
+[I 2026-03-04 20:36:46.715 ServerApp] Kernel started: a4ea1a84-2715-4824-99eb-48388380374a
+[I 2026-03-04 20:36:46.718 ServerApp] Kernel shutdown: f4abde02-025f-4a09-8ca2-915b2465b611
+[I 2026-03-04 20:36:47.131 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-04 20:36:47.131 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-04 20:36:47.144 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-04 20:36:47.144 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-04 20:38:41.128 ServerApp] Saving file at /notebooks/Untitled.ipynb
+[I 2026-03-04 20:39:45.771 ServerApp] Kernel restarted: a4ea1a84-2715-4824-99eb-48388380374a
+[I 2026-03-04 20:39:45.773 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 20:39:45.775 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-04 20:39:45.775 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-04 20:39:45.775 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 20:40:41.181 ServerApp] Saving file at /notebooks/Untitled.ipynb
+[I 2026-03-04 20:40:47.583 ServerApp] Kernel restarted: a4ea1a84-2715-4824-99eb-48388380374a
+[I 2026-03-04 20:40:47.599 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 20:40:47.601 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-04 20:40:47.601 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-04 20:40:47.601 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 20:41:27.159 ServerApp] Kernel restarted: a4ea1a84-2715-4824-99eb-48388380374a
+[I 2026-03-04 20:41:27.162 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 20:41:27.164 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-04 20:41:27.164 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-04 20:41:27.164 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 20:42:41.202 ServerApp] Saving file at /notebooks/Untitled.ipynb
+[I 2026-03-04 20:45:47.869 ServerApp] Kernel restarted: a4ea1a84-2715-4824-99eb-48388380374a
+[I 2026-03-04 20:45:47.872 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 20:45:47.874 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-04 20:45:47.874 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-04 20:45:47.874 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 20:46:42.764 ServerApp] Saving file at /notebooks/Untitled.ipynb
+[I 2026-03-04 20:50:29.262 ServerApp] Kernel restarted: a4ea1a84-2715-4824-99eb-48388380374a
+[I 2026-03-04 20:50:29.265 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 20:50:29.267 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-04 20:50:29.267 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-04 20:50:29.267 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 20:51:39.806 ServerApp] Saving file at /notebooks/explore_finetune.ipynb
+[I 2026-03-04 20:57:41.295 ServerApp] Saving file at /notebooks/explore_finetune.ipynb
+[I 2026-03-04 20:59:41.344 ServerApp] Saving file at /notebooks/explore_finetune.ipynb
+[I 2026-03-04 21:01:41.389 ServerApp] Saving file at /notebooks/explore_finetune.ipynb
+[I 2026-03-04 21:03:41.435 ServerApp] Saving file at /notebooks/explore_finetune.ipynb
+[I 2026-03-04 21:05:41.490 ServerApp] Saving file at /notebooks/explore_finetune.ipynb
+[I 2026-03-04 21:07:09.129 ServerApp] Saving file at /PatchTST_self_supervised/datautils.py
+[I 2026-03-04 21:07:17.067 ServerApp] Kernel restarted: a4ea1a84-2715-4824-99eb-48388380374a
+[I 2026-03-04 21:07:17.070 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 21:07:17.071 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-04 21:07:17.072 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-04 21:07:17.072 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 21:07:19.235 ServerApp] Saving file at /PatchTST_self_supervised/src/models/patchTST.py
+[I 2026-03-04 21:07:19.257 ServerApp] Saving file at /PatchTST_self_supervised/patchtst_finetune.py
+[I 2026-03-04 21:07:19.259 ServerApp] Saving file at /notebooks/explore_finetune.ipynb
+[I 2026-03-04 21:07:19.262 ServerApp] Saving file at /PatchTST_self_supervised/datautils.py
+[I 2026-03-04 21:07:37.683 ServerApp] Saving file at /PatchTST_self_supervised/datautils.py
+[I 2026-03-04 21:07:50.916 ServerApp] Saving file at /PatchTST_self_supervised/datautils.py
+[I 2026-03-04 21:09:13.804 ServerApp] Kernel restarted: a4ea1a84-2715-4824-99eb-48388380374a
+[I 2026-03-04 21:09:13.806 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 21:09:13.808 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-04 21:09:13.808 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-04 21:09:13.808 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-04 21:09:22.813 ServerApp] Saving file at /notebooks/explore_finetune.ipynb
+[I 2026-03-04 21:10:04.744 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:10:04.752 ServerApp] Saving file at /PatchTST_self_supervised/src/models/patchTST.py
+[I 2026-03-04 21:10:04.754 ServerApp] Saving file at /PatchTST_self_supervised/patchtst_finetune.py
+[I 2026-03-04 21:10:05.950 ServerApp] Saving file at /PatchTST_self_supervised/datautils.py
+[I 2026-03-04 21:22:04.785 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:24:04.854 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:26:04.923 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:28:04.969 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:30:05.013 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:32:05.081 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:34:05.132 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:36:05.186 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:38:05.247 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:40:05.301 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:42:05.352 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:46:05.413 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:48:05.463 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:50:05.515 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:52:05.567 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:54:05.621 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:56:05.672 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 21:58:05.737 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:00:05.804 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:02:06.826 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:03:48.418 ServerApp] Creating new notebook in /notebooks
+[I 2026-03-04 22:03:52.089 ServerApp] Kernel started: 887c54d5-73ba-4615-8873-16c4a8d24937
+[I 2026-03-04 22:03:52.532 ServerApp] Adapting from protocol version 5.3 (kernel 887c54d5-73ba-4615-8873-16c4a8d24937) to 5.4 (client).
+[I 2026-03-04 22:03:52.537 ServerApp] Connecting to kernel 887c54d5-73ba-4615-8873-16c4a8d24937.
+[I 2026-03-04 22:06:06.169 ServerApp] Saving file at /notebooks/explore_model_in_depth.ipynb
+[I 2026-03-04 22:13:07.800 ServerApp] Saving file at /notebooks/channel_time_encoder.ipynb
+[I 2026-03-04 22:18:51.846 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:20:51.865 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:22:51.902 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:24:51.964 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:25:10.759 ServerApp] Saving file at /notebooks/channel_time_encoder.ipynb
+[I 2026-03-04 22:26:52.018 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:30:52.771 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:32:52.868 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:40:04.194 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
+[I 2026-03-04 22:42:04.244 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
+[I 2026-03-04 22:44:04.315 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
+[I 2026-03-04 22:46:04.364 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
+[I 2026-03-04 22:48:04.409 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
+[I 2026-03-04 22:52:55.795 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:54:55.851 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:56:55.959 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 22:58:56.028 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:00:04.185 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:02:04.245 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:04:04.310 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:06:04.365 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:08:04.422 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:10:04.511 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:12:04.610 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:14:04.690 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:16:04.763 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:18:04.834 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:22:04.931 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:24:04.990 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:26:05.063 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:28:05.153 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:30:05.243 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:32:05.327 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:34:05.420 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:36:05.495 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:38:05.576 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:40:05.644 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:42:05.733 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:48:05.839 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:50:05.906 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-04 23:52:04.620 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
+[I 2026-03-04 23:54:04.673 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
+[I 2026-03-04 23:56:04.710 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
+[I 2026-03-04 23:58:46.839 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
