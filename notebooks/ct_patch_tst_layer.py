@@ -3,6 +3,9 @@ class ChannelAttention(nn.Module):
 
     def forward(self, src: Tensor, 
                 prev: Optional[Tensor]=None):
+        """
+        Multihead: mix M features
+        """        
 
         # src shape (M, B*N, P) or (n_vars, bs*num_patch, self.d_model)
 
@@ -40,6 +43,52 @@ class ChannelAttention(nn.Module):
             return src, scores
         else:
             return src
+
+
+class TimeAttention(nn.Module):
+    """
+    Multihead: mix patches
+    """
+
+    def forward(self, src: Tensor, 
+                prev: Optional[Tensor]=None):
+
+        # src shape (N, B*M, P) or (num_patch, bs*n_vars, self.d_model)
+
+
+        
+        if self.pre_norm:
+            src = self.norm_attn(src)
+        ## Multi-Head attention
+        if self.res_attention:
+            src2, attn, scores = self.self_attn(src, src, src, prev)
+        else:
+            src2, attn = self.self_attn(src, src, src)
+        if self.store_attn:
+            self.attn = attn
+        
+        ## Add & Norm
+        src = src + self.dropout_attn(src2) # Add: residual connection with residual dropout
+        if not self.pre_norm:
+            src = self.norm_attn(src)        
+
+        # Feed forward channel independence
+        # shape (B*M, N, P)
+
+        # Feed-forward sublayer
+        if self.pre_norm:
+            src = self.norm_ffn(src)
+        ## Position-wise Feed-Forward
+        src2 = self.ff(src)
+        ## Add & Norm
+        src = src + self.dropout_ffn(src2) # Add: residual connection with residual dropout
+        if not self.pre_norm:
+            src = self.norm_ffn(src)
+
+        if self.res_attention:
+            return src, scores
+        else:
+            return src            
 
 
 
