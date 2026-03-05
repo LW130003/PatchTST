@@ -5,10 +5,12 @@ class ChannelAttention(nn.Module):
                 prev: Optional[Tensor]=None):
         """
         Multihead: mix M features
-        """        
+        """
+        # PatchTST
+        # src (B*M, N, P) or (bs*n_vars, num_patch, self.d_model)
 
-        # src shape (M, B*N, P) or (n_vars, bs*num_patch, self.d_model)
-
+        # Channel Attention - Mixed Channels
+        # src shape (B*N, M, P) or (bs*num_patch, n_vars, self.d_model)
 
         
         if self.pre_norm:
@@ -20,14 +22,14 @@ class ChannelAttention(nn.Module):
             src2, attn = self.self_attn(src, src, src)
         if self.store_attn:
             self.attn = attn
-        
+
         ## Add & Norm
         src = src + self.dropout_attn(src2) # Add: residual connection with residual dropout
         if not self.pre_norm:
             src = self.norm_attn(src)        
 
         # Feed forward channel independence
-        # shape (B*M, N, P)
+        # shape (B*M, N, P) # channel-independent, Patch TST
 
         # Feed-forward sublayer
         if self.pre_norm:
@@ -53,7 +55,8 @@ class TimeAttention(nn.Module):
     def forward(self, src: Tensor, 
                 prev: Optional[Tensor]=None):
 
-        # src shape (N, B*M, P) or (num_patch, bs*n_vars, self.d_model)
+        # src shape (B*M, N, P) or (bs*n_vars, num_patch, self.d_model)
+        # channel independent like PatchTST
 
 
         
