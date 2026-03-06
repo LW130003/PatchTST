@@ -197,3 +197,113 @@ dyld[54999]: Library not loaded: /opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib
 [I 2026-03-05 00:07:15.969 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
 [I 2026-03-05 00:07:46.045 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
 [I 2026-03-05 00:07:47.662 ServerApp] Saving file at /notebooks/ct_patch_tst_layer.py
+[I 2026-03-05 00:51:56.820 ServerApp] Starting buffering for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 00:51:56.835 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 00:51:56.900 ServerApp] Adapting from protocol version 5.3 (kernel 887c54d5-73ba-4615-8873-16c4a8d24937) to 5.4 (client).
+[I 2026-03-05 00:51:56.901 ServerApp] Connecting to kernel 887c54d5-73ba-4615-8873-16c4a8d24937.
+[I 2026-03-05 00:51:56.901 ServerApp] Restoring connection for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 00:51:56.915 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-05 00:51:56.916 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-05 00:51:56.916 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 06:42:21.713 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 06:42:21.728 ServerApp] Starting buffering for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 06:42:21.753 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-05 06:42:21.754 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-05 06:42:21.754 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 06:42:21.769 ServerApp] Adapting from protocol version 5.3 (kernel 887c54d5-73ba-4615-8873-16c4a8d24937) to 5.4 (client).
+[I 2026-03-05 06:42:21.769 ServerApp] Connecting to kernel 887c54d5-73ba-4615-8873-16c4a8d24937.
+[I 2026-03-05 06:42:21.769 ServerApp] Restoring connection for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 20:27:23.630 ServerApp] Starting buffering for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 20:27:23.639 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 20:27:23.655 ServerApp] Adapting from protocol version 5.3 (kernel 887c54d5-73ba-4615-8873-16c4a8d24937) to 5.4 (client).
+[I 2026-03-05 20:27:23.657 ServerApp] Connecting to kernel 887c54d5-73ba-4615-8873-16c4a8d24937.
+[I 2026-03-05 20:27:23.657 ServerApp] Restoring connection for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 20:27:23.669 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-05 20:27:23.670 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-05 20:27:23.670 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 20:56:03.912 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 20:56:03.925 ServerApp] Starting buffering for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 20:56:03.972 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-05 20:56:03.975 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-05 20:56:03.975 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 20:56:03.987 ServerApp] Adapting from protocol version 5.3 (kernel 887c54d5-73ba-4615-8873-16c4a8d24937) to 5.4 (client).
+[I 2026-03-05 20:56:03.987 ServerApp] Connecting to kernel 887c54d5-73ba-4615-8873-16c4a8d24937.
+[I 2026-03-05 20:56:03.987 ServerApp] Restoring connection for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 21:39:40.370 ServerApp] Starting buffering for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 21:39:40.380 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 21:39:40.384 ServerApp] Adapting from protocol version 5.3 (kernel 887c54d5-73ba-4615-8873-16c4a8d24937) to 5.4 (client).
+[I 2026-03-05 21:39:40.385 ServerApp] Connecting to kernel 887c54d5-73ba-4615-8873-16c4a8d24937.
+[I 2026-03-05 21:39:40.385 ServerApp] Restoring connection for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 21:39:40.398 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-05 21:39:40.399 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-05 21:39:40.399 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 22:28:16.335 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 22:28:16.343 ServerApp] Starting buffering for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 22:28:16.387 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-05 22:28:16.387 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-05 22:28:16.388 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 22:28:16.402 ServerApp] Adapting from protocol version 5.3 (kernel 887c54d5-73ba-4615-8873-16c4a8d24937) to 5.4 (client).
+[I 2026-03-05 22:28:16.403 ServerApp] Connecting to kernel 887c54d5-73ba-4615-8873-16c4a8d24937.
+[I 2026-03-05 22:28:16.403 ServerApp] Restoring connection for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 22:55:57.932 ServerApp] Starting buffering for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 22:55:57.938 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-05 22:55:57.952 ServerApp] Adapting from protocol version 5.3 (kernel 887c54d5-73ba-4615-8873-16c4a8d24937) to 5.4 (client).
+[I 2026-03-05 22:55:57.954 ServerApp] Connecting to kernel 887c54d5-73ba-4615-8873-16c4a8d24937.
+[I 2026-03-05 22:55:57.954 ServerApp] Restoring connection for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-05 22:55:57.972 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-05 22:55:57.973 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-05 22:55:57.973 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-06 08:36:32.578 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-06 08:36:32.664 ServerApp] Starting buffering for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-06 08:36:32.772 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-06 08:36:32.776 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-06 08:36:32.776 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-06 08:36:32.794 ServerApp] Adapting from protocol version 5.3 (kernel 887c54d5-73ba-4615-8873-16c4a8d24937) to 5.4 (client).
+[I 2026-03-06 08:36:32.795 ServerApp] Connecting to kernel 887c54d5-73ba-4615-8873-16c4a8d24937.
+[I 2026-03-06 08:36:32.795 ServerApp] Restoring connection for 887c54d5-73ba-4615-8873-16c4a8d24937:41d8f62b-5321-4135-8b17-8fb73f6ccbab
+[I 2026-03-06 10:10:39.724 ServerApp] Creating new file in /notebooks
+[I 2026-03-06 10:11:33.616 ServerApp] Copying 'notebooks/ct_patch_tst.py' to '/PatchTST_self_supervised/src/models'
+[I 2026-03-06 10:12:23.981 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:12:33.947 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:12:55.247 ServerApp] Kernel restarted: a4ea1a84-2715-4824-99eb-48388380374a
+[I 2026-03-06 10:12:55.250 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-06 10:12:55.251 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-06 10:12:55.251 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-06 10:12:55.252 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-06 10:14:20.665 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:14:21.839 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:14:33.985 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:14:37.446 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:14:52.056 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-06 10:16:37.477 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:18:37.522 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:20:37.562 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:24:37.597 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:24:54.730 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-06 10:25:11.431 ServerApp] Kernel restarted: a4ea1a84-2715-4824-99eb-48388380374a
+[I 2026-03-06 10:25:11.433 ServerApp] Starting buffering for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-06 10:25:11.435 ServerApp] Adapting from protocol version 5.3 (kernel a4ea1a84-2715-4824-99eb-48388380374a) to 5.4 (client).
+[I 2026-03-06 10:25:11.436 ServerApp] Connecting to kernel a4ea1a84-2715-4824-99eb-48388380374a.
+[I 2026-03-06 10:25:11.436 ServerApp] Restoring connection for a4ea1a84-2715-4824-99eb-48388380374a:024f828e-36c7-4263-8b8a-2f31a0ab7365
+[I 2026-03-06 10:26:54.805 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-06 10:28:37.661 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:28:54.872 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-06 10:30:37.715 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:30:41.055 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:32:41.101 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:32:54.959 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-06 10:34:41.172 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:35:25.639 ServerApp] Copying 'PatchTST_self_supervised/src/models/ct_patch_tst_old.py' to '/PatchTST_self_supervised/src/models'
+[W 2026-03-06 10:36:00.076 ServerApp] delete /PatchTST_self_supervised/src/models/ct_patch_tst_old.py
+[W 2026-03-06 10:36:00.161 ServerApp] delete /PatchTST_self_supervised/src/models/ct_patch_tst.py
+[I 2026-03-06 10:36:20.704 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:38:20.766 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:44:20.851 ServerApp] Saving file at /notebooks/ct_patch_tst.py
+[I 2026-03-06 10:52:55.103 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-06 10:54:55.168 ServerApp] Saving file at /notebooks/explore_model.ipynb
+[I 2026-03-06 10:57:10.660 ServerApp] Creating new notebook in /notebooks
+[I 2026-03-06 10:57:14.497 ServerApp] Kernel started: da3530ae-5ea3-4126-a861-e829d372fd9f
+[I 2026-03-06 10:57:15.049 ServerApp] Adapting from protocol version 5.3 (kernel da3530ae-5ea3-4126-a861-e829d372fd9f) to 5.4 (client).
+[I 2026-03-06 10:57:15.051 ServerApp] Connecting to kernel da3530ae-5ea3-4126-a861-e829d372fd9f.
+[I 2026-03-06 10:59:19.936 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb
+[I 2026-03-06 11:01:19.985 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb

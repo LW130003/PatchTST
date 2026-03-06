@@ -19,7 +19,7 @@ def get_dls(params):
     if not hasattr(params,'use_time_features'): params.use_time_features = False
 
     if params.dset == 'ettm1':
-        # root_path = '/data/datasets/public/ETDataset/ETT-small/'
+        # root_path = '/Users/livardywufianto/Projects/PatchTST/dataset/ETT-small/'
         root_path = "/Users/livardywufianto/Projects/PatchTST/dataset/ETT-small/"
         size = [params.context_points, 0, params.target_points]
         dls = DataLoaders(
@@ -38,7 +38,7 @@ def get_dls(params):
 
 
     elif params.dset == 'ettm2':
-        root_path = '/data/datasets/public/ETDataset/ETT-small/'
+        root_path = '/Users/livardywufianto/Projects/PatchTST/dataset/ETT-small/'
         size = [params.context_points, 0, params.target_points]
         dls = DataLoaders(
                 datasetCls=Dataset_ETT_minute,
@@ -55,7 +55,7 @@ def get_dls(params):
                 )
 
     elif params.dset == 'etth1':
-        root_path = '/data/datasets/public/ETDataset/ETT-small/'
+        root_path = '/Users/livardywufianto/Projects/PatchTST/dataset/ETT-small/'
         size = [params.context_points, 0, params.target_points]
         dls = DataLoaders(
                 datasetCls=Dataset_ETT_hour,
@@ -73,7 +73,7 @@ def get_dls(params):
 
 
     elif params.dset == 'etth2':
-        root_path = '/data/datasets/public/ETDataset/ETT-small/'
+        root_path = '/Users/livardywufianto/Projects/PatchTST/dataset/ETT-small/'
         size = [params.context_points, 0, params.target_points]
         dls = DataLoaders(
                 datasetCls=Dataset_ETT_hour,
