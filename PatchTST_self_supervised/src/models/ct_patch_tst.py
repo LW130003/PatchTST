@@ -199,9 +199,10 @@ class PatchTSTEncoder(nn.Module):
         self.dropout = nn.Dropout(dropout)
 
         # Encoder
-        self.encoder = TSTEncoder(d_model, n_heads, d_ff=d_ff, norm=norm, attn_dropout=attn_dropout, dropout=dropout,
-                                   pre_norm=pre_norm, activation=act, res_attention=res_attention, n_layers=n_layers, 
-                                    store_attn=store_attn)
+        self.encoder = TSTEncoder(
+            d_model, n_heads, d_ff=d_ff, norm=norm, attn_dropout=attn_dropout, 
+            dropout=dropout, pre_norm=pre_norm, activation=act, 
+            res_attention=res_attention, n_layers=n_layers, store_attn=store_attn)
 
     def forward(self, x) -> Tensor:          
         """
@@ -270,7 +271,8 @@ class ChannelTimeTSTEncoderLayer(nn.Module):
     def __init__(self, d_model, n_heads, d_ff=256, store_attn=False,
                  norm='BatchNorm', attn_dropout=0, dropout=0., bias=True, 
                 activation="gelu", res_attention=False, pre_norm=False):
-        
+        super().__init__()
+        self.res_attention = res_attention
         self.channel_attention = ChannelTSTEncoderLayer(
             d_model, n_heads=n_heads, d_ff=d_ff, norm=norm,
             attn_dropout=attn_dropout, dropout=dropout,
@@ -405,7 +407,7 @@ class ChannelTSTEncoderLayer(nn.Module):
         self.pre_norm = pre_norm
         self.store_attn = store_attn
 
-    def _reshape_to_mix_channel(src, shape):
+    def _reshape_to_mix_channel(self, src, shape):
         bs, n_vars, num_patch, d_model = shape
         src = torch.reshape(
             src, (bs, n_vars, num_patch, d_model)
@@ -414,7 +416,7 @@ class ChannelTSTEncoderLayer(nn.Module):
         src = torch.reshape(src, (bs*num_patch, n_vars, d_model)) 
         return src
 
-    def _reshape_to_channel_independent(src, shape):
+    def _reshape_to_channel_independent(self, src, shape):
         bs, n_vars, num_patch, d_model = shape
         src = torch.reshape(src, (bs, num_patch, n_vars, d_model)) 
         src = src.transpose(1,2)    
