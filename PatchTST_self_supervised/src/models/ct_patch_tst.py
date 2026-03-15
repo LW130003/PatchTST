@@ -255,10 +255,14 @@ class TSTEncoder(nn.Module):
         src: tensor [bs x q_len x d_model]
         """
         output = src
-        scores = None
+        channel_scores = None
+        time_scores = None
         if self.res_attention:
-            for mod in self.layers: output, scores = mod(
-                output, prev=scores, shape=shape)
+            for mod in self.layers: 
+                output, channel_scores, time_scores = mod(
+                    output, channel_prev=channel_scores, 
+                    time_prev=time_scores, shape=shape
+                )
             return output
         else:
             for mod in self.layers: output = mod(
@@ -287,12 +291,13 @@ class ChannelTimeTSTEncoderLayer(nn.Module):
             pre_norm=pre_norm, store_attn=store_attn            
         )
 
-    def forward(self, src:Tensor, prev:Optional[Tensor]=None, 
+    def forward(self, src:Tensor, channel_prev:Optional[Tensor]=None, 
+                time_prev:Optional[Tensor]=None, 
                 shape: Tuple[int, int, int, int ]= None):
         if self.res_attention:
-            src, scores = self.channel_attention(src, prev, shape=shape)
-            src, scores = self.time_attention(src, scores)
-            return src, scores
+            src, channel_scores = self.channel_attention(src, channel_prev, shape=shape)
+            src, time_scores = self.time_attention(src, time_prev)
+            return src, channel_scores, time_scores
         else:
             src = self.channel_attention(src, shape=shape)
             src = self.time_attention(src)            

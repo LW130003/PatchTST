@@ -18,6 +18,10 @@ Let's try adding residual first.
             src = self.time_attention(src)            
             src = src + residual
             return src
+
+P.S. don't use this model yet.
+
+I try on fresh, the MSE and MAE is very huge. This means something is wrong.
             
 """
 __all__ = ['PatchTST']

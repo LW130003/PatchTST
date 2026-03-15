@@ -305,6 +305,8 @@ class TSTEncoderLayer(nn.Module):
         ## Multi-Head attention
         if self.res_attention:
             src2, attn, scores = self.self_attn(src, src, src, prev)
+            if prev is not None:
+                print(f"src2: {src2.shape}. scores: {scores.shape}. src: {src.shape}")
         else:
             src2, attn = self.self_attn(src, src, src)
         if self.store_attn:
