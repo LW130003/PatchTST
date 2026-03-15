@@ -1,6 +1,8 @@
 """
 Almost the same as v1 or ct_patch_tst.py. 
 
+P.S. reading the paper (Fig2. I suspect they set res_attention=True). To Check.
+
 Except the reshape is done last. 
 
         assert shape is not None, "ChannelTSTEncoderLayer requires shape"
