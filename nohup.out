@@ -393,3 +393,4 @@ dyld[80730]: Library not loaded: /opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib
 [I 2026-04-03 09:25:37.225 ServerApp] Adapting from protocol version 5.3 (kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17) to 5.4 (client).
 [I 2026-04-03 09:25:37.225 ServerApp] Connecting to kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17.
 [I 2026-04-03 09:25:37.225 ServerApp] Restoring connection for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:27:31.595 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb
