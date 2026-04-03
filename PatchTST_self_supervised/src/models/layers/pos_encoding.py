@@ -44,3 +44,4 @@ def positional_encoding(pe, learn_pe, q_len, d_model):
         'zeros', 'zero', uniform', 'sincos', None.)")
     return nn.Parameter(W_pos, requires_grad=learn_pe)
 
+

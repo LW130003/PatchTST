@@ -60,6 +60,48 @@ from ..models.layers.basics import *
 from ..models.layers.attention import *
 
             
+def positional_encoding_2d(pe, learn_pe, q_len, n_vars, d_model):
+    """
+    Creates a 2D positional encoding of shape (q_len, n_vars, d_model)
+    """
+    # Define the new 2D shape [Time, Channels, Features]
+    shape_2d = (q_len, n_vars, d_model)
+    # Some PE types in your original code used (q_len, 1), 
+    # we update that to (q_len, n_vars, 1) for 2D broadcasting
+    shape_2d_narrow = (q_len, n_vars, 1)
+
+    if pe == None:
+        W_pos = torch.empty(shape_2d)
+        nn.init.uniform_(W_pos, -0.02, 0.02)
+        learn_pe = False
+    elif pe == 'zero' or pe == 'zeros':
+        W_pos = torch.empty(shape_2d)
+        nn.init.uniform_(W_pos, -0.02, 0.02)
+    elif pe == 'normal' or pe == 'gauss':
+        W_pos = torch.zeros(shape_2d_narrow)
+        torch.nn.init.normal_(W_pos, mean=0.0, std=0.1)
+    elif pe == 'uniform':
+        W_pos = torch.zeros(shape_2d_narrow)
+        nn.init.uniform_(W_pos, a=0.0, b=0.1)
+    elif pe == 'sincos': 
+        # For sincos, we generate a standard 1D time encoding 
+        # and repeat it across channels to start, then let it learn channel diffs
+        W_pos_1d = PositionalEncoding(q_len, d_model, normalize=True) # [q_len, d_model]
+        W_pos = W_pos_1d.unsqueeze(1).repeat(1, n_vars, 1) # [q_len, n_vars, d_model]
+    else: 
+        raise ValueError(f"{pe} is not valid. Available: 'gauss', 'zeros', 'zero', 'uniform', 'sincos', None")
+    
+    return nn.Parameter(W_pos, requires_grad=learn_pe)
+
+
+def positional_encoding_2d_v2(pe, learn_pe, q_len, d_model):
+    """
+    Creates a 2D positional encoding of shape (q_len, 1, d_model)
+    """
+    return positional_encoding_2d(pe, learn_pe, q_len, 1, d_model)
+
+
+
 # Cell
 class CTPatchTST(nn.Module):
     """
@@ -238,7 +280,9 @@ class PatchTSTEncoder(nn.Module):
             self.W_P = nn.Linear(patch_len, d_model)      
 
         # Positional encoding
-        self.W_pos = positional_encoding(pe, learn_pe, num_patch, d_model)
+        # self.W_pos = positional_encoding(pe, learn_pe, num_patch, d_model)
+        # self.W_pos = positional_encoding_2d(pe, learn_pe, num_patch, c_in, d_model)
+        self.W_pos = positional_encoding_2d_v2(pe, learn_pe, num_patch, d_model)
 
         # Residual dropout
         self.dropout = nn.Dropout(dropout)
@@ -263,10 +307,14 @@ class PatchTSTEncoder(nn.Module):
             x = torch.stack(x_out, dim=2)
         else:
             x = self.W_P(x)                                                      # x: [bs x num_patch x nvars x d_model]
-        x = x.transpose(1,2)                                                     # x: [bs x nvars x num_patch x d_model]        
 
+        # positional encoding
+        x = x + self.W_pos
+
+        # reshape for channel mixing
+        x = x.transpose(1,2)                                                     # x: [bs x nvars x num_patch x d_model]        
         u = torch.reshape(x, (bs*n_vars, num_patch, self.d_model) )              # u: [bs * nvars x num_patch x d_model]
-        u = self.dropout(u + self.W_pos)                                         # u: [bs * nvars x num_patch x d_model]
+        u = self.dropout(u)                                         # u: [bs * nvars x num_patch x d_model]
 
         # Encoder
         z = self.encoder(u, shape=(bs, n_vars, num_patch, self.d_model))

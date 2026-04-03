@@ -307,3 +307,89 @@ dyld[54999]: Library not loaded: /opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib
 [I 2026-03-06 10:57:15.051 ServerApp] Connecting to kernel da3530ae-5ea3-4126-a861-e829d372fd9f.
 [I 2026-03-06 10:59:19.936 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb
 [I 2026-03-06 11:01:19.985 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb
+Fail to get yarn configuration. dyld[80719]: Library not loaded: /opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib
+  Referenced from: <F23F9611-8A22-3834-9064-D67825262DD8> /opt/homebrew/Cellar/node/21.5.0/bin/node
+  Reason: tried: '/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache), '/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache)
+
+[I 2026-04-03 09:03:01.233 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-04-03 09:03:01.235 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-04-03 09:03:01.237 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-04-03 09:03:01.434 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-04-03 09:03:01.479 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-04-03 09:03:01.480 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-04-03 09:03:01.481 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-04-03 09:03:01.482 LabApp] JupyterLab extension loaded from /Users/livardywufianto/Projects/PatchTST/venv/lib/python3.10/site-packages/jupyterlab
+[I 2026-04-03 09:03:01.482 LabApp] JupyterLab application directory is /Users/livardywufianto/Projects/PatchTST/venv/share/jupyter/lab
+[I 2026-04-03 09:03:01.482 LabApp] Extension Manager is 'pypi'.
+[I 2026-04-03 09:03:01.516 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-04-03 09:03:01.516 ServerApp] Serving notebooks from local directory: /Users/livardywufianto/Projects/PatchTST
+[I 2026-04-03 09:03:01.516 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2026-04-03 09:03:01.516 ServerApp] http://Livardys-MacBook-Air.local:8888/lab?token=d7aa4fc7a4b0ec249b080bb0f368296e7c765affd3566a3e
+[I 2026-04-03 09:03:01.516 ServerApp]     http://127.0.0.1:8888/lab?token=d7aa4fc7a4b0ec249b080bb0f368296e7c765affd3566a3e
+[I 2026-04-03 09:03:01.516 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2026-04-03 09:03:01.519 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///Users/livardywufianto/Library/Jupyter/runtime/jpserver-80717-open.html
+    Or copy and paste one of these URLs:
+        http://Livardys-MacBook-Air.local:8888/lab?token=d7aa4fc7a4b0ec249b080bb0f368296e7c765affd3566a3e
+        http://127.0.0.1:8888/lab?token=d7aa4fc7a4b0ec249b080bb0f368296e7c765affd3566a3e
+[W 2026-04-03 09:03:01.536 ServerApp] Could not determine npm prefix: Command '['/opt/homebrew/bin/npm', 'prefix', '-g']' died with <Signals.SIGABRT: 6>.
+[I 2026-04-03 09:03:01.539 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+dyld[80730]: Library not loaded: /opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib
+  Referenced from: <F23F9611-8A22-3834-9064-D67825262DD8> /opt/homebrew/Cellar/node/21.5.0/bin/node
+  Reason: tried: '/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/opt/homebrew/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache), '/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/opt/homebrew/Cellar/icu4c@77/77.1/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache)
+[W 2026-04-03 09:03:21.360 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-04-03 09:03:21.521 ServerApp] New terminal with automatic name: 1
+[W 2026-04-03 09:03:21.529 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2026-04-03 09:03:27.867 ServerApp] Kernel started: 57ec71af-acd2-4046-9bb4-defb7d4a8a17
+[I 2026-04-03 09:03:28.497 ServerApp] Adapting from protocol version 5.3 (kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17) to 5.4 (client).
+[I 2026-04-03 09:03:28.498 ServerApp] Connecting to kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17.
+[I 2026-04-03 09:03:28.508 ServerApp] Starting buffering for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:7d5d5b1c-5287-42bc-9b29-fedecce3bc9a
+[I 2026-04-03 09:03:28.512 ServerApp] Adapting from protocol version 5.3 (kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17) to 5.4 (client).
+[I 2026-04-03 09:03:28.512 ServerApp] Connecting to kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17.
+[I 2026-04-03 09:03:28.524 ServerApp] Adapting from protocol version 5.3 (kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17) to 5.4 (client).
+[I 2026-04-03 09:03:28.524 ServerApp] Connecting to kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17.
+[I 2026-04-03 09:04:20.996 ServerApp] Kernel restarted: 57ec71af-acd2-4046-9bb4-defb7d4a8a17
+[I 2026-04-03 09:04:21.000 ServerApp] Starting buffering for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:04:21.002 ServerApp] Adapting from protocol version 5.3 (kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17) to 5.4 (client).
+[I 2026-04-03 09:04:21.003 ServerApp] Connecting to kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17.
+[I 2026-04-03 09:04:21.003 ServerApp] Restoring connection for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:05:27.705 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb
+[I 2026-04-03 09:06:30.935 ServerApp] Kernel restarted: 57ec71af-acd2-4046-9bb4-defb7d4a8a17
+[I 2026-04-03 09:06:30.938 ServerApp] Starting buffering for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:06:30.940 ServerApp] Adapting from protocol version 5.3 (kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17) to 5.4 (client).
+[I 2026-04-03 09:06:30.940 ServerApp] Connecting to kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17.
+[I 2026-04-03 09:06:30.941 ServerApp] Restoring connection for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:07:28.469 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb
+[I 2026-04-03 09:09:28.490 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb
+[I 2026-04-03 09:10:01.279 ServerApp] Kernel restarted: 57ec71af-acd2-4046-9bb4-defb7d4a8a17
+[I 2026-04-03 09:10:01.281 ServerApp] Starting buffering for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:10:01.283 ServerApp] Adapting from protocol version 5.3 (kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17) to 5.4 (client).
+[I 2026-04-03 09:10:01.283 ServerApp] Connecting to kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17.
+[I 2026-04-03 09:10:01.283 ServerApp] Restoring connection for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:11:28.784 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb
+[I 2026-04-03 09:13:52.321 ServerApp] Kernel restarted: 57ec71af-acd2-4046-9bb4-defb7d4a8a17
+[I 2026-04-03 09:13:52.328 ServerApp] Starting buffering for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:13:52.332 ServerApp] Adapting from protocol version 5.3 (kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17) to 5.4 (client).
+[I 2026-04-03 09:13:52.333 ServerApp] Connecting to kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17.
+[I 2026-04-03 09:13:52.333 ServerApp] Restoring connection for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:15:28.892 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb
+[I 2026-04-03 09:23:16.960 ServerApp] Kernel restarted: 57ec71af-acd2-4046-9bb4-defb7d4a8a17
+[I 2026-04-03 09:23:16.964 ServerApp] Starting buffering for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:23:16.967 ServerApp] Adapting from protocol version 5.3 (kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17) to 5.4 (client).
+[I 2026-04-03 09:23:16.968 ServerApp] Connecting to kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17.
+[I 2026-04-03 09:23:16.968 ServerApp] Restoring connection for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:23:31.476 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb
+[I 2026-04-03 09:25:15.176 ServerApp] Kernel restarted: 57ec71af-acd2-4046-9bb4-defb7d4a8a17
+[I 2026-04-03 09:25:15.179 ServerApp] Starting buffering for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:25:15.181 ServerApp] Adapting from protocol version 5.3 (kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17) to 5.4 (client).
+[I 2026-04-03 09:25:15.182 ServerApp] Connecting to kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17.
+[I 2026-04-03 09:25:15.182 ServerApp] Restoring connection for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:25:31.554 ServerApp] Saving file at /notebooks/debug_ct_patch_tst.ipynb
+[I 2026-04-03 09:25:37.219 ServerApp] Kernel restarted: 57ec71af-acd2-4046-9bb4-defb7d4a8a17
+[I 2026-04-03 09:25:37.222 ServerApp] Starting buffering for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
+[I 2026-04-03 09:25:37.225 ServerApp] Adapting from protocol version 5.3 (kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17) to 5.4 (client).
+[I 2026-04-03 09:25:37.225 ServerApp] Connecting to kernel 57ec71af-acd2-4046-9bb4-defb7d4a8a17.
+[I 2026-04-03 09:25:37.225 ServerApp] Restoring connection for 57ec71af-acd2-4046-9bb4-defb7d4a8a17:12fddb0a-7344-4dcc-baea-862cd7c01e7c
